@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">About</p>
+    <h1>About this project</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+    <p class="page-lead">Project {{ project_code }}: an FAQ-based enquiry assistant built as an academic Python project.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container container-narrow prose">
+    <h2>Project overview</h2>
+    <p>
+      The {{ project_name }} lets a visitor ask a question in natural language and
+      returns the most relevant entry from an FAQ dataset, together with that entry's FAQ ID.
+      It was prepared for {{ college_name }} {{ college_descriptor }}. It does not describe the
+      institution's history, achievements or statistics, and it does not contain verified college data.
+    </p>
+
+    <h2>Objectives</h2>
+    <ul>
+      <li>Load an approved FAQ dataset from a JSON file and validate it.</li>
+      <li>Accept natural-language questions, including paraphrases.</li>
+      <li>Show the best answer with its unique FAQ ID.</li>
+      <li>Fall back honestly when no sufficiently reliable answer exists, and reject unrelated questions.</li>
+      <li>Keep the user interface separate from the core question-processing logic.</li>
+      <li>Allow the core system to be evaluated independently of the web application.</li>
+    </ul>
+
+    <h2>Technology stack</h2>
+    <ul>
+      <li><strong>Language:</strong> Python</li>
+      <li><strong>Backend:</strong> Flask, with a JSON API at <code>POST /api/enquire</code></li>
+      <li><strong>Retrieval:</strong> scikit-learn TF-IDF vectors and cosine similarity</li>
+      <li><strong>Data:</strong> JSON files (FAQ dataset and evaluation questions)</li>
+      <li><strong>Frontend:</strong> HTML5, CSS3 and vanilla JavaScript</li>
+      <li><strong>Testing:</strong> pytest</li>
+    </ul>
+
+    <h2>How FAQ retrieval works</h2>
+    <ol>
+      <li>The question is cleaned: lower-cased, punctuation and common filler words removed, and simple plurals reduced.</li>
+      <li>It is converted into a TF-IDF vector and compared, using cosine similarity, with every FAQ question and its approved paraphrases.</li>
+      <li>Each FAQ keeps its best score. The score is reduced when many words of the question are unknown to the FAQ vocabulary, so one shared word cannot carry an unrelated question.</li>
+      <li>The top FAQ is returned only if its score reaches the confidence threshold{% if threshold is not none %} (currently {{ '%.2f'|format(threshold) }}){% endif %} and it clearly beats the runner-up. Otherwise the fallback message is shown.</li>
+    </ol>
+    <p>The match confidence shown beside an answer is this similarity score. It is a measure of text overlap, not a probability that the answer is correct.</p>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>FAQ answers{% if faq_count %} ({{ faq_count }} entries){% endif %} are taken from the college's published <strong>VETIAS Handbook 2024-25</strong>. Where the handbook does not publish a detail (fees, eligibility, scholarships and so on), the answer says so and points to the college office rather than guessing.</li>
+      <li>Matching is based on words, not meaning. Different vocabulary for the same idea, spelling mistakes and non-English questions can be missed.</li>
+      <li>Vague questions are rejected rather than guessed at, so some valid questions will receive the fallback.</li>
+      <li>The assistant has no memory of earlier messages; each question is answered on its own.</li>
+      <li>No login, personal data or question history is handled or stored.</li>
+    </ul>
+  </div>
+</section>
+{% endblock %}

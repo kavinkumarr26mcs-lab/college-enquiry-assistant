@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Error {{ status }}</p>
+    <h1>{{ title }}</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+  </div>
+</section>
+<section class="section section-tight">
+  <div class="container container-narrow">
+    <div class="notice notice-error" role="alert">
+      <p>{{ message }}</p>
+      {% if detail %}<p class="detail"><code>{{ detail }}</code></p>{% endif %}
+    </div>
+    <p><a class="btn btn-primary" href="{{ url_for('index') }}">Return home</a></p>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Evaluation{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Development</p>
+    <h1>Evaluation</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+    <p class="page-lead">Development view for assessing the retrieval system. It is not part of the public enquiry experience.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container">
+    {% if error %}
+    <div class="notice notice-error" role="alert">
+      <h2>Evaluation unavailable</h2>
+      <p>{{ error }}</p>
+    </div>
+    {% else %}
+    {% set m = report.metrics %}
+    <div class="notice" role="note">
+      These figures are computed live from <code>data/evaluation_questions.json</code> against the loaded FAQ data
+      at threshold <strong>{{ report.threshold }}</strong>. The evaluation questions were written by the project team, and the threshold
+      was chosen while looking at this same set, so treat the results as indicative rather than as a
+      guarantee for real users.
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat"><span class="stat-value">{{ m.total }}</span><span class="stat-label">Total questions</span></div>
+      <div class="stat"><span class="stat-value">{{ m.correct_retrievals }}</span><span class="stat-label">Correct matches</span></div>
+      <div class="stat"><span class="stat-value">{{ m.incorrect_retrievals }}</span><span class="stat-label">Incorrect matches</span></div>
+      <div class="stat"><span class="stat-value">{{ m.unmatched }}</span><span class="stat-label">Unmatched (fallback returned)</span></div>
+    </div>
+
+    <h2>Metrics</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Metric</th><th scope="col">Value</th><th scope="col">Definition</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Accuracy</th><td>{{ m.accuracy|score }}</td><td>(correct matches + correct fallbacks) / all questions</td></tr>
+          <tr><th scope="row">Precision</th><td>{{ m.precision|score }}</td><td>correct matches / FAQ answers returned</td></tr>
+          <tr><th scope="row">Recall</th><td>{{ m.recall|score }}</td><td>correct matches / questions that have an FAQ answer</td></tr>
+          <tr><th scope="row">F1-score</th><td>{{ m.f1|score }}</td><td>harmonic mean of precision and recall</td></tr>
+          <tr><th scope="row">Rejection precision</th><td>{{ m.rejection_precision|score }}</td><td>correct fallbacks / fallbacks returned</td></tr>
+          <tr><th scope="row">Rejection recall</th><td>{{ m.rejection_recall|score }}</td><td>correct fallbacks / questions that should be rejected</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">"n/a" means the denominator is zero, so the metric is undefined rather than zero.
+      An "incorrect match" is an FAQ answer that is wrong, or one given when a fallback was expected.</p>
+
+    <h2>Confusion counts</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th scope="col">Expected \ System returned</th><th scope="col">Correct FAQ</th><th scope="col">Wrong FAQ</th><th scope="col">Fallback</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">FAQ answer expected ({{ m.expected_matches }})</th>
+            <td>{{ m.confusion.expected_match.predicted_correct_faq }}</td>
+            <td>{{ m.confusion.expected_match.predicted_wrong_faq }}</td>
+            <td>{{ m.confusion.expected_match.predicted_fallback }}</td></tr>
+          <tr><th scope="row">Fallback expected ({{ m.expected_fallbacks }})</th>
+            <td>&ndash;</td>
+            <td>{{ m.confusion.expected_fallback.predicted_faq }}</td>
+            <td>{{ m.confusion.expected_fallback.predicted_fallback }}</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">When a fallback was expected, any FAQ answer returned counts as a wrong FAQ.</p>
+
+    <h2>Results by test type</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Test type</th><th scope="col">Questions</th><th scope="col">Correct</th><th scope="col">Accuracy</th><th scope="col">Precision</th><th scope="col">Recall</th></tr></thead>
+        <tbody>
+          {% for row in report.by_test_type %}
+          <tr>
+            <th scope="row">{{ row.test_type|replace('_', ' ') }}</th>
+            <td>{{ row.metrics.total }}</td>
+            <td>{{ row.metrics.correct_retrievals + row.metrics.correct_fallbacks }}</td>
+            <td>{{ row.metrics.accuracy|score }}</td>
+            <td>{{ row.metrics.precision|score }}</td>
+            <td>{{ row.metrics.recall|score }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Incorrect cases ({{ report.failures|length }})</h2>
+    {% if report.failures %}
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">ID</th><th scope="col">Question</th><th scope="col">Type</th><th scope="col">Expected</th><th scope="col">Returned</th><th scope="col">Score</th><th scope="col">Outcome</th></tr></thead>
+        <tbody>
+          {% for case in report.failures %}
+          <tr>
+            <th scope="row">{{ case.evaluation_id }}</th>
+            <td>{{ case.question }}</td>
+            <td>{{ case.test_type|replace('_', ' ') }}</td>
+            <td>{{ case.expected_faq_id or 'fallback' }}</td>
+            <td>{{ case.predicted_faq_id or 'fallback' }}</td>
+            <td>{{ case.similarity }}</td>
+            <td>{{ case.outcome|replace('_', ' ') }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <p>Every evaluation question produced the expected outcome.</p>
+    {% endif %}
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

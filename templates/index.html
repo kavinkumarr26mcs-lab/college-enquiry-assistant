@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">{{ college_name }}</p>
+    <h1>Your College, One Conversation Away.</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+    <p class="hero-lead">
+      A digital concierge for common college enquiries. Ask a question in your own words
+      and the assistant finds the closest matching entry in the college FAQ, or tells you
+      plainly when it cannot.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="{{ url_for('enquiry') }}">Ask an Enquiry</a>
+      <a class="btn btn-ghost" href="{{ url_for('faq') }}">Browse the FAQ</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">What you can expect</p>
+      <h2>Clear answers, clearly sourced</h2>
+      <div class="gold-rule gold-rule-center" aria-hidden="true"></div>
+    </header>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Instant Answers</h3>
+        <p>Type a question naturally. Paraphrased wording is understood, so you do not need to know the exact FAQ title.</p>
+      </article>
+      <article class="card">
+        <h3>Verified FAQ References</h3>
+        <p>Every answer carries the ID of the FAQ it came from, so it can be checked on the FAQ Reference page. Answers are based on the VETIAS Handbook 2024-25; details it does not publish are marked for confirmation with the college office.</p>
+      </article>
+      <article class="card">
+        <h3>Guided Enquiries</h3>
+        <p>Suggested questions help you get started, and an honest fallback points you to the college office when no reliable answer exists.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-ivory-deep">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow eyebrow-dark">How it works</p>
+      <h2>Three simple steps</h2>
+      <div class="gold-rule gold-rule-center" aria-hidden="true"></div>
+    </header>
+    <ol class="steps">
+      <li>
+        <span class="step-number" aria-hidden="true">1</span>
+        <h3>Ask</h3>
+        <p>Write your question or choose a suggestion.</p>
+      </li>
+      <li>
+        <span class="step-number" aria-hidden="true">2</span>
+        <h3>Match</h3>
+        <p>The assistant compares it with every FAQ question and approved paraphrase.</p>
+      </li>
+      <li>
+        <span class="step-number" aria-hidden="true">3</span>
+        <h3>Answer or refer</h3>
+        <p>A reliable match is shown with its FAQ ID. Otherwise you are referred to the college office.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+{% endblock %}

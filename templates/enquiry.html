@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Ask an Enquiry{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Enquiry Assistant</p>
+    <h1>Ask an Enquiry</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+    <p class="page-lead">Ask about admissions, courses, fees, facilities and more. Answers come from the FAQ dataset only.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container container-narrow">
+    <div class="chat-shell" id="chat-app" data-api-url="{{ url_for('api_enquire') }}">
+      <div class="chat-toolbar">
+        <h2 class="chat-title">Conversation</h2>
+        <button type="button" class="btn btn-small btn-outline" id="reset-button">Reset conversation</button>
+      </div>
+
+      <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Conversation with the enquiry assistant"></div>
+
+      <div class="suggestions" aria-label="Suggested questions">
+        <p class="suggestions-label" id="suggestions-label">Suggested questions</p>
+        <div class="chip-row" role="group" aria-labelledby="suggestions-label">
+          {% for question in suggestions %}
+          <button type="button" class="chip" data-question="{{ question }}">{{ question }}</button>
+          {% endfor %}
+        </div>
+      </div>
+
+      <form class="composer" id="chat-form" novalidate>
+        <label class="sr-only" for="question-input">Your question</label>
+        <input id="question-input" name="question" type="text" autocomplete="off"
+               maxlength="{{ max_length }}" placeholder="Type your question here&hellip;" required>
+        <button type="submit" class="btn btn-primary" id="send-button" aria-label="Send question">Send</button>
+      </form>
+      <p class="composer-note">Questions are not stored by this application.</p>
+    </div>
+
+    <template id="welcome-template">
+      <div class="msg msg-bot">
+        <div class="bubble bubble-bot">
+          <p class="bubble-title">Welcome</p>
+          <p>Hello, and welcome. I can answer questions using the college FAQ. Choose a suggestion below or type your own question.</p>
+        </div>
+      </div>
+    </template>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/enquiry.js') }}" defer></script>
+{% endblock %}

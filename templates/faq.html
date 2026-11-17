@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}FAQ Reference{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">FAQ Reference</p>
+    <h1>FAQ Reference</h1>
+    <div class="gold-rule" aria-hidden="true"></div>
+    <p class="page-lead">Every entry the assistant can answer from. This list is read from the same dataset the backend uses.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container container-narrow">
+    <div class="filter-bar" role="search">
+      <div class="field">
+        <label for="faq-search">Search FAQs</label>
+        <input id="faq-search" type="search" placeholder="Search by ID, keyword or category" autocomplete="off">
+      </div>
+      <div class="field field-select">
+        <label for="faq-category">Category</label>
+        <select id="faq-category">
+          <option value="">All categories</option>
+          {% for category in categories %}
+          <option value="{{ category }}">{{ category }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    <p class="result-count" id="faq-count" aria-live="polite">Showing {{ faqs|length }} of {{ faqs|length }} FAQs</p>
+
+    <div class="faq-list" id="faq-list" data-total="{{ faqs|length }}">
+      {% for item in faqs %}
+      <article class="faq-card" data-category="{{ item.category }}"
+               data-search="{{ (item.faq_id ~ ' ' ~ item.question ~ ' ' ~ item.answer ~ ' ' ~ item.category ~ ' ' ~ (item.paraphrases|join(' ')))|lower }}">
+        <header class="faq-card-head">
+          <span class="badge">{{ item.faq_id }}</span>
+          <span class="tag">{{ item.category }}</span>
+        </header>
+        <h2 class="faq-question">{{ item.question }}</h2>
+        <p class="faq-answer">{{ item.answer }}</p>
+        {% if item.paraphrases %}
+        <details class="faq-more">
+          <summary>Approved alternative phrasings</summary>
+          <ul>
+            {% for phrase in item.paraphrases %}<li>{{ phrase }}</li>{% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="empty-state" id="faq-empty" hidden>
+      <h2>No FAQs found</h2>
+      <p>No entries match your search. Try a different word, or clear the category filter.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

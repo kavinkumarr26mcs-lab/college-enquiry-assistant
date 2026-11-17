@@ -1,0 +1,625 @@
+[
+  {
+    "evaluation_id": "EVAL001",
+    "question": "What is the process for applying for admission?",
+    "expected_faq_id": "FAQ001",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL002",
+    "question": "Which documents do I need to submit for admission?",
+    "expected_faq_id": "FAQ002",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL003",
+    "question": "On what date does the admission process begin?",
+    "expected_faq_id": "FAQ003",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL004",
+    "question": "Do applicants need to pay an application fee?",
+    "expected_faq_id": "FAQ004",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL005",
+    "question": "How do I find out the status of my application?",
+    "expected_faq_id": "FAQ005",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL006",
+    "question": "Is it possible to cancel my admission once I have joined?",
+    "expected_faq_id": "FAQ006",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL007",
+    "question": "Could you list the courses this college runs?",
+    "expected_faq_id": "FAQ007",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL008",
+    "question": "Are undergraduate programmes offered at this college?",
+    "expected_faq_id": "FAQ008",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL009",
+    "question": "Are postgraduate programmes offered at this college?",
+    "expected_faq_id": "FAQ009",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL010",
+    "question": "How many years is a degree programme?",
+    "expected_faq_id": "FAQ010",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL011",
+    "question": "May I switch my course after getting admission?",
+    "expected_faq_id": "FAQ011",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL012",
+    "question": "Does the college provide add-on or certificate courses?",
+    "expected_faq_id": "FAQ012",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL013",
+    "question": "What are the eligibility conditions for an undergraduate course?",
+    "expected_faq_id": "FAQ013",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL014",
+    "question": "What qualification is needed for a postgraduate course?",
+    "expected_faq_id": "FAQ014",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL015",
+    "question": "Is a minimum percentage mandatory for getting admission?",
+    "expected_faq_id": "FAQ015",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL016",
+    "question": "Are students from other states allowed to apply?",
+    "expected_faq_id": "FAQ016",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL017",
+    "question": "Is there an upper age limit for applicants?",
+    "expected_faq_id": "FAQ017",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL018",
+    "question": "How will I receive my class timetable?",
+    "expected_faq_id": "FAQ018",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL019",
+    "question": "How do I obtain a bonafide certificate?",
+    "expected_faq_id": "FAQ019",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL020",
+    "question": "What is the procedure for getting a transfer certificate?",
+    "expected_faq_id": "FAQ020",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL021",
+    "question": "Where is the academic calendar published?",
+    "expected_faq_id": "FAQ021",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL022",
+    "question": "How do I obtain a student ID card?",
+    "expected_faq_id": "FAQ022",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL023",
+    "question": "In what way are internal assessments carried out?",
+    "expected_faq_id": "FAQ023",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL024",
+    "question": "When will the semester examinations take place?",
+    "expected_faq_id": "FAQ024",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL025",
+    "question": "How can I download my hall ticket?",
+    "expected_faq_id": "FAQ025",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL026",
+    "question": "How can I see my examination results?",
+    "expected_faq_id": "FAQ026",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL027",
+    "question": "What is the procedure for revaluation of an answer paper?",
+    "expected_faq_id": "FAQ027",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL028",
+    "question": "What is the minimum attendance percentage?",
+    "expected_faq_id": "FAQ028",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL029",
+    "question": "What if my attendance falls short?",
+    "expected_faq_id": "FAQ029",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL030",
+    "question": "How can I apply for leave from classes?",
+    "expected_faq_id": "FAQ030",
+    "expected_outcome": "match",
+    "test_type": "direct"
+  },
+  {
+    "evaluation_id": "EVAL031",
+    "question": "What time does the library open in the morning?",
+    "expected_faq_id": "FAQ032",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL032",
+    "question": "What is the process for issuing books to students?",
+    "expected_faq_id": "FAQ033",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL033",
+    "question": "Are online journals and e-books accessible to students?",
+    "expected_faq_id": "FAQ034",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL034",
+    "question": "Is there a fine if I submit a book after the due date?",
+    "expected_faq_id": "FAQ035",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL035",
+    "question": "Which practical labs can students use?",
+    "expected_faq_id": "FAQ036",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL036",
+    "question": "What guidelines must be followed in the computer lab?",
+    "expected_faq_id": "FAQ037",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL037",
+    "question": "Can students practise in the lab after regular hours?",
+    "expected_faq_id": "FAQ038",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL038",
+    "question": "Can I live in a hostel while studying here?",
+    "expected_faq_id": "FAQ039",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL039",
+    "question": "Where can students get food on campus?",
+    "expected_faq_id": "FAQ040",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL040",
+    "question": "Does the college operate buses for students?",
+    "expected_faq_id": "FAQ041",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL041",
+    "question": "Is there a playground or gym for students?",
+    "expected_faq_id": "FAQ042",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL042",
+    "question": "Can students access wireless networks on campus?",
+    "expected_faq_id": "FAQ043",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL043",
+    "question": "Is a doctor available if a student falls ill?",
+    "expected_faq_id": "FAQ044",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL044",
+    "question": "What kinds of scholarships can students receive?",
+    "expected_faq_id": "FAQ045",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL045",
+    "question": "What are the steps to apply for a scholarship?",
+    "expected_faq_id": "FAQ046",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL046",
+    "question": "Can I receive a state government scholarship?",
+    "expected_faq_id": "FAQ047",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL047",
+    "question": "Which certificates should I attach to a scholarship form?",
+    "expected_faq_id": "FAQ048",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL048",
+    "question": "How much are the tuition charges?",
+    "expected_faq_id": "FAQ049",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL049",
+    "question": "Is online fee payment possible?",
+    "expected_faq_id": "FAQ050",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL050",
+    "question": "Do you allow fee instalments?",
+    "expected_faq_id": "FAQ051",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL051",
+    "question": "How does the college handle refunds of money paid?",
+    "expected_faq_id": "FAQ052",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL052",
+    "question": "What if I fail to pay my fees by the due date?",
+    "expected_faq_id": "FAQ053",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL053",
+    "question": "Does the college help students get jobs after the course?",
+    "expected_faq_id": "FAQ054",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL054",
+    "question": "Can I talk to a counsellor about personal problems?",
+    "expected_faq_id": "FAQ055",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL055",
+    "question": "Where should I report a problem with the college administration?",
+    "expected_faq_id": "FAQ056",
+    "expected_outcome": "match",
+    "test_type": "paraphrase"
+  },
+  {
+    "evaluation_id": "EVAL056",
+    "question": "Hi, could you tell me how to see my attendance details online?",
+    "expected_faq_id": "FAQ031",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL057",
+    "question": "My friend is worried about ragging. Is there a committee to handle it?",
+    "expected_faq_id": "FAQ057",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL058",
+    "question": "I would like to join a few clubs. How do I get involved?",
+    "expected_faq_id": "FAQ058",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL059",
+    "question": "Could you give me the postal address of this college please?",
+    "expected_faq_id": "FAQ059",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL060",
+    "question": "I want to talk to someone in the office. What number should I call?",
+    "expected_faq_id": "FAQ060",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL061",
+    "question": "At what time can I meet someone at the administrative office?",
+    "expected_faq_id": "FAQ061",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL062",
+    "question": "My daughter wants to know if boys and girls study together there.",
+    "expected_faq_id": "FAQ062",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL063",
+    "question": "Before applying, I would like to walk around the college. Is that allowed?",
+    "expected_faq_id": "FAQ063",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL064",
+    "question": "Please let me know where I can read the latest notices from the college.",
+    "expected_faq_id": "FAQ064",
+    "expected_outcome": "match",
+    "test_type": "conversational"
+  },
+  {
+    "evaluation_id": "EVAL065",
+    "question": "Tell me more.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL066",
+    "question": "Information please.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL067",
+    "question": "How much?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL068",
+    "question": "Is it possible?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL069",
+    "question": "What about the others?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL070",
+    "question": "I have a question about the college.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL071",
+    "question": "When?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL072",
+    "question": "Can you help me with something?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL073",
+    "question": "What is the process?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL074",
+    "question": "Is there any facility?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "ambiguous"
+  },
+  {
+    "evaluation_id": "EVAL075",
+    "question": "What is the weather on Mars?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL076",
+    "question": "Who won the cricket world cup?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL077",
+    "question": "Can you recommend a good biryani restaurant?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL078",
+    "question": "What is the capital of France?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL079",
+    "question": "How do I bake a chocolate cake?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL080",
+    "question": "Tell me a joke.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL081",
+    "question": "What is the price of gold today?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL082",
+    "question": "Which is the best smartphone under twenty thousand rupees?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL083",
+    "question": "How do I reset my email password?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL084",
+    "question": "Explain how photosynthesis works.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL085",
+    "question": "Who is the prime minister of India?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL086",
+    "question": "Book a train ticket from Erode to Chennai.",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL087",
+    "question": "What movies are releasing this Friday?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL088",
+    "question": "How can I lose weight quickly?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  },
+  {
+    "evaluation_id": "EVAL089",
+    "question": "What is the stock price of Tesla?",
+    "expected_faq_id": null,
+    "expected_outcome": "fallback",
+    "test_type": "out_of_scope"
+  }
+]

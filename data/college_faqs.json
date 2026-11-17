@@ -1,0 +1,646 @@
+[
+  {
+    "faq_id": "FAQ001",
+    "question": "How do I apply for admission?",
+    "answer": "The handbook does not describe the application steps. For admission, speak to the Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in) or write to info@vetias.ac.in.",
+    "category": "Admissions",
+    "paraphrases": [
+      "What is the admission procedure?",
+      "Where can I submit my application?",
+      "How can I join the college?"
+    ]
+  },
+  {
+    "faq_id": "FAQ002",
+    "question": "What documents are required for admission?",
+    "answer": "The list of documents required for admission is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Admissions",
+    "paraphrases": [
+      "Which certificates should I bring while applying?",
+      "List of documents needed at the time of admission",
+      "What papers do I have to submit for joining?"
+    ]
+  },
+  {
+    "faq_id": "FAQ003",
+    "question": "When does the admission process start?",
+    "answer": "The admission start date is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Admissions",
+    "paraphrases": [
+      "What are the admission dates?",
+      "When do admissions open for the new academic year?",
+      "What is the last date to apply?"
+    ]
+  },
+  {
+    "faq_id": "FAQ004",
+    "question": "Is there an application fee?",
+    "answer": "The application fee is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Admissions",
+    "paraphrases": [
+      "Do I have to pay anything to submit the application form?",
+      "How much is the application form?"
+    ]
+  },
+  {
+    "faq_id": "FAQ005",
+    "question": "How can I check my application status?",
+    "answer": "How to check application status is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. You can also ask the Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in).",
+    "category": "Admissions",
+    "paraphrases": [
+      "Where can I track my application?",
+      "How do I know whether my admission is confirmed?"
+    ]
+  },
+  {
+    "faq_id": "FAQ006",
+    "question": "Can I cancel my admission after joining?",
+    "answer": "The procedure to cancel an admission is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Admissions",
+    "paraphrases": [
+      "How do I withdraw my admission?",
+      "What is the procedure to discontinue the course?"
+    ]
+  },
+  {
+    "faq_id": "FAQ007",
+    "question": "What courses are available?",
+    "answer": "Courses listed in the handbook: School of Business - B.B.A., B.B.A. with Business Analytics, M.B.A. School of Commerce - B.Com., B.Com. Computer Applications, B.Com. Professional Accounting, B.Com. Accounting & Finance, B.Com. with Business Intelligence, M.Com. School of Computer Science - B.Sc. Computer Science, B.Sc. Computer Science & Applications, B.Sc. Computer Science (Artificial Intelligence and Data Science), B.Sc. Information Technology, B.Sc. Computer Science with Artificial Intelligence, M.Sc. Computer Science. School of Fashion - B.Sc. Costume Design and Fashion, M.Sc. Costume Design and Fashion. School of Literature - B.A. English Literature. School of Social Science - B.A. Sociology. Certificate courses are offered by IBM. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Courses",
+    "paraphrases": [
+      "Which programmes does the college offer?",
+      "Tell me about the courses I can study.",
+      "What degrees can I pursue here?"
+    ]
+  },
+  {
+    "faq_id": "FAQ008",
+    "question": "Does the college offer undergraduate programmes?",
+    "answer": "Undergraduate programmes listed: B.B.A., B.B.A. with Business Analytics, B.Com., B.Com. Computer Applications, B.Com. Professional Accounting, B.Com. Accounting & Finance, B.Com. with Business Intelligence, B.Sc. Computer Science, B.Sc. Computer Science & Applications, B.Sc. Computer Science (AI and Data Science), B.Sc. Information Technology, B.Sc. Computer Science with AI, B.Sc. Costume Design and Fashion, B.A. English Literature and B.A. Sociology. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Courses",
+    "paraphrases": [
+      "Are bachelor's degree courses offered?",
+      "Can I join a UG course here?"
+    ]
+  },
+  {
+    "faq_id": "FAQ009",
+    "question": "Does the college offer postgraduate programmes?",
+    "answer": "Postgraduate programmes listed: M.B.A., M.Com., M.Sc. Computer Science and M.Sc. Costume Design and Fashion. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Courses",
+    "paraphrases": [
+      "Are master's degree courses offered?",
+      "Can I join a PG course here?"
+    ]
+  },
+  {
+    "faq_id": "FAQ010",
+    "question": "What is the duration of a degree programme?",
+    "answer": "The duration of each programme is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Courses",
+    "paraphrases": [
+      "How many years does a course take?",
+      "How long is each degree course?"
+    ]
+  },
+  {
+    "faq_id": "FAQ011",
+    "question": "Can I change my course after admission?",
+    "answer": "The rules for changing a course is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Courses",
+    "paraphrases": [
+      "Is it possible to switch to a different programme?",
+      "How can I move to another department after joining?"
+    ]
+  },
+  {
+    "faq_id": "FAQ012",
+    "question": "Are certificate or add-on courses offered?",
+    "answer": "Certificate courses offered by IBM are mentioned in the handbook (marked with * against B.B.A. with Business Analytics and B.Com. with Business Intelligence). Details of other add-on courses are not published there; please ask the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Courses",
+    "paraphrases": [
+      "Does the college run short-term courses?",
+      "Can I take additional skill courses along with my degree?"
+    ]
+  },
+  {
+    "faq_id": "FAQ013",
+    "question": "What is the eligibility for undergraduate admission?",
+    "answer": "The eligibility for undergraduate programmes is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. Admission queries: Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in).",
+    "category": "Eligibility",
+    "paraphrases": [
+      "Who can apply for a bachelor's degree here?",
+      "What qualification do I need to join a UG course?"
+    ]
+  },
+  {
+    "faq_id": "FAQ014",
+    "question": "Who is eligible for postgraduate admission?",
+    "answer": "The eligibility for postgraduate programmes is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. Admission queries: Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in).",
+    "category": "Eligibility",
+    "paraphrases": [
+      "What qualification do I need to join a PG course?",
+      "Which graduates can apply for a master's programme?"
+    ]
+  },
+  {
+    "faq_id": "FAQ015",
+    "question": "Is there a minimum percentage for admission?",
+    "answer": "The minimum percentage required for admission is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Eligibility",
+    "paraphrases": [
+      "What marks do I need to get a seat?",
+      "Is there a cut-off mark?"
+    ]
+  },
+  {
+    "faq_id": "FAQ016",
+    "question": "Can students from other boards or states apply?",
+    "answer": "Whether students from other boards or states are eligible is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Eligibility",
+    "paraphrases": [
+      "Are applicants from outside Tamil Nadu accepted?",
+      "Do you accept students who studied under a different board?"
+    ]
+  },
+  {
+    "faq_id": "FAQ017",
+    "question": "Is there an age limit for applicants?",
+    "answer": "The age limit for admission is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Eligibility",
+    "paraphrases": [
+      "What is the maximum age for admission?",
+      "Can mature or older students apply?"
+    ]
+  },
+  {
+    "faq_id": "FAQ018",
+    "question": "How do I get my class timetable?",
+    "answer": "The class timetable is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. The college works Monday to Saturday, 9:00 AM to 4:15 PM. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Academic procedures",
+    "paraphrases": [
+      "Where can I find the class schedule?",
+      "How will I know my weekly timetable?"
+    ]
+  },
+  {
+    "faq_id": "FAQ019",
+    "question": "How can I get a bonafide certificate?",
+    "answer": "The procedure for a bonafide certificate is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Academic procedures",
+    "paraphrases": [
+      "What is the procedure to obtain a bonafide letter?",
+      "I need a certificate that proves I am a student here."
+    ]
+  },
+  {
+    "faq_id": "FAQ020",
+    "question": "How do I apply for a transfer certificate?",
+    "answer": "The procedure for a transfer certificate is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Academic procedures",
+    "paraphrases": [
+      "What is the process to get a TC?",
+      "How can I leave the college and get my transfer papers?"
+    ]
+  },
+  {
+    "faq_id": "FAQ021",
+    "question": "Where can I find the academic calendar and holidays?",
+    "answer": "The handbook includes an academic calendar listing events and holidays for 2024-25 (for example Sports Day on 22.02.2025 and the Mentor & Mentee Meet). Please refer to the calendar in the handbook or ask the college office for exact dates. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Academic procedures",
+    "paraphrases": [
+      "How are holidays announced?",
+      "Where is the yearly calendar published?"
+    ]
+  },
+  {
+    "faq_id": "FAQ022",
+    "question": "How do I get a student ID card?",
+    "answer": "A student identity card is mandatory inside the campus. The process of obtaining a card is not described in the handbook; please ask the college office. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Academic procedures",
+    "paraphrases": [
+      "What should I do if I lose my identity card?",
+      "How can I get a duplicate ID card?"
+    ]
+  },
+  {
+    "faq_id": "FAQ023",
+    "question": "How are internal assessments conducted?",
+    "answer": "Students are evaluated by a continuous Internal Assessment system. The detailed schedule is not published in the handbook; please ask your department. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Examination procedures",
+    "paraphrases": [
+      "What is the pattern of continuous internal evaluation?",
+      "How are internal marks awarded?"
+    ]
+  },
+  {
+    "faq_id": "FAQ024",
+    "question": "When are the semester examinations held?",
+    "answer": "The semester examination dates is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. Please watch the college notices.",
+    "category": "Examination procedures",
+    "paraphrases": [
+      "What is the exam schedule?",
+      "When will the end-semester exams take place?"
+    ]
+  },
+  {
+    "faq_id": "FAQ025",
+    "question": "How do I get my hall ticket?",
+    "answer": "To be eligible for the end semester examination a student must have a minimum attendance of 75% (shortage may be condoned by the Principal on payment of the condonation fee prescribed by the University). How hall tickets are issued is not published in the handbook; please ask the college office. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Examination procedures",
+    "paraphrases": [
+      "Where can I download the admit card for exams?",
+      "How do I receive my exam hall ticket?"
+    ]
+  },
+  {
+    "faq_id": "FAQ026",
+    "question": "How can I check my exam results?",
+    "answer": "How and when results are published is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Examination procedures",
+    "paraphrases": [
+      "Where are the semester results published?",
+      "How do I view my marks after the exams?"
+    ]
+  },
+  {
+    "faq_id": "FAQ027",
+    "question": "How do I apply for revaluation of answer papers?",
+    "answer": "The revaluation procedure is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Examination procedures",
+    "paraphrases": [
+      "Can I request rechecking of my exam paper?",
+      "What is the procedure for re-evaluation?"
+    ]
+  },
+  {
+    "faq_id": "FAQ028",
+    "question": "What is the minimum attendance required?",
+    "answer": "A student must have a minimum attendance of 75% to be eligible for the End Semester Examinations. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Attendance",
+    "paraphrases": [
+      "How much attendance do I need to maintain?",
+      "What percentage of attendance is compulsory?"
+    ]
+  },
+  {
+    "faq_id": "FAQ029",
+    "question": "What happens if my attendance is short?",
+    "answer": "If attendance is short, the shortage may be condoned by the Principal after payment of the condonation fee prescribed by the University. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Attendance",
+    "paraphrases": [
+      "What if I have low attendance?",
+      "Can I appear for exams with attendance shortage?"
+    ]
+  },
+  {
+    "faq_id": "FAQ030",
+    "question": "How do I apply for leave?",
+    "answer": "In case of illness and other unforeseen circumstances, leave shall be applied for through the LMS portal. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Attendance",
+    "paraphrases": [
+      "What is the procedure to request absence from classes?",
+      "Where do I submit a leave letter?"
+    ]
+  },
+  {
+    "faq_id": "FAQ031",
+    "question": "How can I view my attendance record?",
+    "answer": "How to view attendance is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. Leave is applied for through the LMS portal.",
+    "category": "Attendance",
+    "paraphrases": [
+      "Where can I see my attendance details?",
+      "How do I check how many classes I have attended?"
+    ]
+  },
+  {
+    "faq_id": "FAQ032",
+    "question": "What are the library timings?",
+    "answer": "Library working hours are 9:00 AM to 5:30 PM on all working days; transaction hours are 9:30 AM to 5:00 PM on all working days. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Library",
+    "paraphrases": [
+      "When does the library open and close?",
+      "What are the library working hours?"
+    ]
+  },
+  {
+    "faq_id": "FAQ033",
+    "question": "How can I borrow books from the library?",
+    "answer": "Reference books, journals, back volumes and project reports are not issued to members. The number of books and the loan period are not published in the handbook; please ask the librarian. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Library",
+    "paraphrases": [
+      "What is the procedure to issue books?",
+      "How many books can a student take home?"
+    ]
+  },
+  {
+    "faq_id": "FAQ034",
+    "question": "Is there a digital library or e-resources facility?",
+    "answer": "Information on the digital library is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Library",
+    "paraphrases": [
+      "Can I access online journals and e-books?",
+      "Does the library provide electronic resources?"
+    ]
+  },
+  {
+    "faq_id": "FAQ035",
+    "question": "What is the penalty for returning library books late?",
+    "answer": "The handbook says mishandling or damage to books invites a penalty. The late-return fine amount is not published; please ask the librarian. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Library",
+    "paraphrases": [
+      "Is there a fine for overdue books?",
+      "What happens if I do not return a book on time?"
+    ]
+  },
+  {
+    "faq_id": "FAQ036",
+    "question": "What laboratories are available on campus?",
+    "answer": "Details of the laboratories is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Laboratories",
+    "paraphrases": [
+      "Which labs does the college have?",
+      "Tell me about the lab facilities for practical sessions."
+    ]
+  },
+  {
+    "faq_id": "FAQ037",
+    "question": "What are the rules for using the computer lab?",
+    "answer": "The computer lab rules is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Laboratories",
+    "paraphrases": [
+      "Are there guidelines for the computer laboratory?",
+      "What should I follow while working in the computer lab?"
+    ]
+  },
+  {
+    "faq_id": "FAQ038",
+    "question": "Can I use the labs outside class hours?",
+    "answer": "Lab access outside class hours is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Laboratories",
+    "paraphrases": [
+      "Is extra lab time available for practice?",
+      "Are laboratories open after class timings for project work?"
+    ]
+  },
+  {
+    "faq_id": "FAQ039",
+    "question": "Is hostel accommodation available?",
+    "answer": "The college has a hostel administered by the Resident Director. Men's Hostel: Dr. Yasir Ashraf. Women's Hostel: Ms. Karthiyaani P. Fees and rules are not published in the handbook; please ask the college office. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "Does the college have a hostel for students?",
+      "Can I stay on campus?"
+    ]
+  },
+  {
+    "faq_id": "FAQ040",
+    "question": "Is there a canteen on campus?",
+    "answer": "Canteen information is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "Where can I get food in the college?",
+      "Is there a cafeteria for students?"
+    ]
+  },
+  {
+    "faq_id": "FAQ041",
+    "question": "Is transport available for students?",
+    "answer": "The college arranges transport, on a payment basis, for day scholars. Transport in-charges: Dr. Arivazhagan B and Dr. Dhinesh D. Routes and charges are not published in the handbook. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "Does the college run buses?",
+      "How can I travel to the college from my town?"
+    ]
+  },
+  {
+    "faq_id": "FAQ042",
+    "question": "What sports facilities are available?",
+    "answer": "The college has a Director of Physical Education, Lt. (Dr.) Suresh A (9842781811), and holds a Sports Day (22.02.2025 in the 2024-25 calendar). (Source: VETIAS Handbook 2024-25.)",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "Does the college have a playground or gym?",
+      "Can I take part in sports and games?"
+    ]
+  },
+  {
+    "faq_id": "FAQ043",
+    "question": "Is Wi-Fi available on campus?",
+    "answer": "Wi-Fi information is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "Can students use the internet in the college?",
+      "Is there wireless internet access for students?"
+    ]
+  },
+  {
+    "faq_id": "FAQ044",
+    "question": "Is there a medical or first-aid facility?",
+    "answer": "Medical facilities is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Campus facilities",
+    "paraphrases": [
+      "What happens if a student falls sick on campus?",
+      "Is a doctor or nurse available in the college?"
+    ]
+  },
+  {
+    "faq_id": "FAQ045",
+    "question": "What scholarships are available?",
+    "answer": "Scholarship information is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Scholarships",
+    "paraphrases": [
+      "Which scholarships can students get?",
+      "Does the college offer any financial aid?"
+    ]
+  },
+  {
+    "faq_id": "FAQ046",
+    "question": "How do I apply for a scholarship?",
+    "answer": "How to apply for a scholarship is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Scholarships",
+    "paraphrases": [
+      "What is the process to get a scholarship?",
+      "Where do I submit the scholarship application?"
+    ]
+  },
+  {
+    "faq_id": "FAQ047",
+    "question": "Are government scholarships available for eligible students?",
+    "answer": "Government scholarship information is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Scholarships",
+    "paraphrases": [
+      "Can I get a state or central government scholarship?",
+      "Does the college help students apply for government schemes?"
+    ]
+  },
+  {
+    "faq_id": "FAQ048",
+    "question": "What documents are needed for a scholarship application?",
+    "answer": "Scholarship documents is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Scholarships",
+    "paraphrases": [
+      "Which certificates are required to apply for a scholarship?",
+      "What papers must I attach with the scholarship form?"
+    ]
+  },
+  {
+    "faq_id": "FAQ049",
+    "question": "What is the fee structure?",
+    "answer": "The fee structure is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Fees",
+    "paraphrases": [
+      "How much are the college fees?",
+      "What is the tuition fee for each course?"
+    ]
+  },
+  {
+    "faq_id": "FAQ050",
+    "question": "How can I pay my fees?",
+    "answer": "How to pay fees is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Fees",
+    "paraphrases": [
+      "What are the payment methods for college fees?",
+      "Can I pay the fees online?"
+    ]
+  },
+  {
+    "faq_id": "FAQ051",
+    "question": "Is there an instalment option for fee payment?",
+    "answer": "Fee payment by instalments is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Fees",
+    "paraphrases": [
+      "Can I pay the fees in parts?",
+      "Is it possible to pay fees in installments?"
+    ]
+  },
+  {
+    "faq_id": "FAQ052",
+    "question": "What is the refund policy?",
+    "answer": "The fee refund policy is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947.",
+    "category": "Fees",
+    "paraphrases": [
+      "Will I get my fee back if I cancel the admission?",
+      "How are fee refunds processed?"
+    ]
+  },
+  {
+    "faq_id": "FAQ053",
+    "question": "What happens if I miss the fee payment deadline?",
+    "answer": "The handbook does not state a late fee for tuition. It mentions a condonation fee, prescribed by the University, for attendance shortage. Please ask the college office about other fees. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Fees",
+    "paraphrases": [
+      "Is there a late fee for delayed payment?",
+      "Can I pay after the due date?"
+    ]
+  },
+  {
+    "faq_id": "FAQ054",
+    "question": "Is there a placement or career guidance cell?",
+    "answer": "Placement Officer: Dr. Jeganath R S (8903951115). Placement Trainer: Ms. Nithya C (8778655761). (Source: VETIAS Handbook 2024-25.)",
+    "category": "Student support",
+    "paraphrases": [
+      "Does the college help students get jobs?",
+      "Are there placement training and career guidance activities?"
+    ]
+  },
+  {
+    "faq_id": "FAQ055",
+    "question": "Is a counselling service available for students?",
+    "answer": "A counselling service is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. The handbook mentions a Mentor & Mentee Meet, and the Principal nominates two faculty members as Staff Advisors for each class.",
+    "category": "Student support",
+    "paraphrases": [
+      "Can students talk to a counsellor?",
+      "Where can I get guidance on personal or academic problems?"
+    ]
+  },
+  {
+    "faq_id": "FAQ056",
+    "question": "How can I raise a complaint or grievance?",
+    "answer": "The college has a Grievance & Redressal Cell, chaired by Dr. Rajalakshmi M. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Student support",
+    "paraphrases": [
+      "Where do I report a problem to the college?",
+      "Is there a grievance redressal cell?"
+    ]
+  },
+  {
+    "faq_id": "FAQ057",
+    "question": "What measures exist against ragging?",
+    "answer": "Ragging in any form is an offence and is totally prohibited in and outside the campus. Every incident is investigated by an Anti-Ragging Squad, which reports to the Principal. The Anti-Ragging Committee is chaired by Dr. Nallaswamy V P. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Student support",
+    "paraphrases": [
+      "Is there an anti-ragging committee?",
+      "Who do I contact if I face ragging?"
+    ]
+  },
+  {
+    "faq_id": "FAQ058",
+    "question": "How can I join student clubs and activities?",
+    "answer": "The college has clubs, with Dr. Radhika C as Club Affairs Head and Dr. Rajendran L and Ms. Sathya K as coordinators. The list of clubs is not published in the handbook. (Source: VETIAS Handbook 2024-25.)",
+    "category": "Student support",
+    "paraphrases": [
+      "Are there cultural or technical clubs for students?",
+      "Can I take part in extracurricular activities?"
+    ]
+  },
+  {
+    "faq_id": "FAQ059",
+    "question": "Where is the college located?",
+    "answer": "VET Institute of Arts and Science (Co-education) College, Thindal, Erode - 638 012, Tamil Nadu. It is affiliated to Bharathiar University. Website: www.vetias.ac.in. (Source: VETIAS Handbook 2024-25.)",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "What is the college address?",
+      "How do I reach the college?"
+    ]
+  },
+  {
+    "faq_id": "FAQ060",
+    "question": "How can I contact the college office?",
+    "answer": "Email: info@vetias.ac.in. Website: www.vetias.ac.in. Receptionists: Ms. Pavithra P (9360820204) and Ms. Pooja M (7806999947). Administrative Officer: Dr. Logesh Kumar S (9566900011). Office Superintendent: Ms. Nithya Devi S (8883960345). Admissions: Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in). (Source: VETIAS Handbook 2024-25.)",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "What is the phone number or email of the office?",
+      "Who should I call for more information?"
+    ]
+  },
+  {
+    "faq_id": "FAQ061",
+    "question": "What are the office working hours?",
+    "answer": "The college works Monday to Saturday, 9:00 AM to 4:15 PM. (Source: VETIAS Handbook 2024-25.)",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "When is the college office open?",
+      "What are the administrative office timings?"
+    ]
+  },
+  {
+    "faq_id": "FAQ062",
+    "question": "Is the college co-educational?",
+    "answer": "Yes. The college is a co-education college. (Source: VETIAS Handbook 2024-25.)",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "Can both boys and girls study here?",
+      "Does the college admit male and female students?"
+    ]
+  },
+  {
+    "faq_id": "FAQ063",
+    "question": "Can I visit the campus before applying?",
+    "answer": "The procedure for a campus visit is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. Please call the receptionist (7806999947) or the Admission Counsellor Ms. Guga Priya T S (9159251115, gugapriyats@vetias.ac.in).",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "Is a campus tour possible?",
+      "How can I schedule a visit to the college?"
+    ]
+  },
+  {
+    "faq_id": "FAQ064",
+    "question": "Where can I find official notices and announcements?",
+    "answer": "Where notices are published is not published in the VETIAS Handbook 2024-25, which is the source this assistant uses. Please confirm with the college office. Contact the college office: info@vetias.ac.in or receptionist 7806999947. The college website is www.vetias.ac.in.",
+    "category": "General college enquiries",
+    "paraphrases": [
+      "Does the college have a website for updates?",
+      "How will I be informed about important announcements?"
+    ]
+  }
+]
